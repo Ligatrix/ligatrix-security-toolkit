@@ -1,6 +1,6 @@
 # Ligatrix Security Toolkit
 
-Small public safety checks for publishing Ligatrix artifacts.
+Small checks for publishing Ligatrix public artifacts.
 
 The first tool scans files for common publish blockers:
 
