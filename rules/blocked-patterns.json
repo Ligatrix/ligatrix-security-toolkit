@@ -1,0 +1,25 @@
+{
+  "patterns": [
+    {
+      "name": "private_key_block",
+      "pattern": "-----BEGIN (RSA |OPENSSH |EC |DSA )?PRIVATE KEY-----"
+    },
+    {
+      "name": "github_token",
+      "pattern": "gh[pousr]_[A-Za-z0-9_]{20,}"
+    },
+    {
+      "name": "openai_like_secret",
+      "pattern": "sk-[A-Za-z0-9]{20,}"
+    },
+    {
+      "name": "local_user_path",
+      "pattern": "/Users/[A-Za-z0-9._-]+/"
+    },
+    {
+      "name": "copied_chat_log_marker",
+      "pattern": "(BEGIN TRANSCRIPT|raw chat log|copied chat)"
+    }
+  ]
+}
+

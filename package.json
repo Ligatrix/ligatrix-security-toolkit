@@ -1,0 +1,11 @@
+{
+  "name": "@ligatrix/security-toolkit",
+  "version": "0.1.0",
+  "description": "Lightweight public safety scanner for Ligatrix artifacts.",
+  "type": "module",
+  "scripts": {
+    "check": "node scripts/scan-public-safety.mjs ."
+  },
+  "license": "MIT"
+}
+
